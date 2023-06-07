@@ -17,14 +17,14 @@ export default function Toggle() {
     }
   }, [theme]);
 
+  if (!mounted) return null;
+
   return (
-    <label
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      aria-label='Toggle Dark Mode'
-    >
+    <label aria-label='Toggle Dark Mode' className='relative'>
       <input
         type='checkbox'
         value=''
+        onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         className={`sr-only peer
                     ${
                       theme === 'dark'
