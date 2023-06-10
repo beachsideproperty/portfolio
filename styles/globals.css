@@ -8,3 +8,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'synthetique';
+  src: url('/fonts/synthetique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-text {
+  font-size: 1.7rem;
+}

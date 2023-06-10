@@ -8,7 +8,7 @@ export default function Navbar() {
   console.log(router.asPath);
 
   return (
-    <nav className='bg-light-gray-100 text-kelly-green dark:bg-dark-gray-800 dark:text-hot-pink py-4 px-8 flex justify-between items-center shadow-md'>
+    <nav className='font-synthetique nav-text bg-light-gray-100 text-kelly-green dark:bg-dark-gray-800 dark:text-hot-pink py-4 px-8 flex justify-between items-center shadow-md'>
       <div className='flex items-center space-x-2'>
         <Link href='/'>
           <img
@@ -17,7 +17,7 @@ export default function Navbar() {
             className='h-10 w-10'
           />
         </Link>
-        <span className='text-lg text-gray-300 font-manrope'>lisa k.</span>
+        <span>lisa k.</span>
       </div>
       <div className='flex items-center space-x-4'>
         <Link
