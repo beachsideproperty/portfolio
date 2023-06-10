@@ -13,6 +13,9 @@ module.exports = {
         'hot-pink': '#ff69b4',
         'kelly-green': '#4cbb17',
       },
+      fontFamily: {
+        manrope: ['manrope', 'sans-serif'],
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],

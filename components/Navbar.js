@@ -17,7 +17,7 @@ export default function Navbar() {
             className='h-10 w-10'
           />
         </Link>
-        <span className='text-lg text-gray-300 font-semibold'>lisa k.</span>
+        <span className='text-lg text-gray-300 font-manrope'>lisa k.</span>
       </div>
       <div className='flex items-center space-x-4'>
         <Link

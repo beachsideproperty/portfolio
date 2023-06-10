@@ -4,7 +4,9 @@ import { ThemeProvider } from 'next-themes';
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme='light' attribute='class'>
-      <Component {...pageProps} />
+      <div className='font-manrope'>
+        <Component {...pageProps} />
+      </div>
     </ThemeProvider>
   );
 }

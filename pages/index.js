@@ -5,8 +5,8 @@ import About from '../components/About';
 export default function Home() {
   return (
     <ContainerBlock
-      title='Lisa Kraisriwatana - Developer, Thrifter, Poet'
-      description='Sweet portfolio website'
+      title="lisa k's secret garden"
+      description='sweet portfolio website'
     >
       <About />
     </ContainerBlock>

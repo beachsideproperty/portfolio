@@ -33,10 +33,8 @@ export default function Toggle() {
                     }`}
       />
       <div
-        className={`w-9 h-5 bg-light-gray-100 dark:bg-dark-gray-700
+        className={`w-9 h-5 bg-kelly-green dark:bg-dark-gray-700
                     peer-focus:outline-none
-                    peer-focus:ring-4
-                    peer-focus:ring-kelly-green dark:peer-focus:ring-hot-pink
                     rounded-full
                     peer
                     peer-checked:after:translate-x-full
