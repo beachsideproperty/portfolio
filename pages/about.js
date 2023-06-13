@@ -12,7 +12,7 @@ export default function About() {
     >
       <div className='flex items-center'>
         <div className='mr-4'>
-          <Image src={Depop} alt='Icon Maxi' width={400} layout='responsive' />
+          <Image src={Depop} alt='Icon Maxi' width={500} layout='responsive' />
         </div>
         <div>
           <h1 className='font-synthetique text-3xl font-bold mb-4'>
