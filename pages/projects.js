@@ -17,7 +17,9 @@ export default function Projects() {
           <Image src={Pathfinder} alt='pathfinder' width={400} />
         </div>
         <div>
-          <h1 className='text-3xl font-bold mb-4'>Pathfinder</h1>
+          <h1 className='font-synthetique text-4xl font-bold mb-4'>
+            Pathfinder
+          </h1>
           <p className='mb-4'>
             A user-friendly travel itinerary site that mimics the experience of
             being taken around the city by a local expert.
@@ -42,7 +44,9 @@ export default function Projects() {
           <Image src={Progression} alt='progression' width={400} />
         </div>
         <div>
-          <h1 className='text-3xl font-bold mb-4'>Progression of Chords</h1>
+          <h1 className='font-synthetique text-4xl font-bold mb-4'>
+            Progression of Chords
+          </h1>
           <p className='mb-4'>
             A productivity/wellness space for daily mood tracking, meditation,
             and relaxation.
@@ -69,7 +73,9 @@ export default function Projects() {
           <Image src={GraceShopper} alt='graceshopper' width={400} />
         </div>
         <div>
-          <h1 className='text-3xl font-bold mb-4'>Grace Shopper</h1>
+          <h1 className='font-synthetique text-4xl font-bold mb-4'>
+            Grace Shopper
+          </h1>
           <p className='mb-4'>
             An e-commerce, four person team project that made heavy use of
             Git/GitHub and Agile methodologies.

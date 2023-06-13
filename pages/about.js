@@ -15,6 +15,10 @@ export default function About() {
           <Image src={Depop} alt='Icon Maxi' width={400} layout='responsive' />
         </div>
         <div>
+          <h1 className='font-synthetique text-3xl font-bold mb-4'>
+            lisa kraisriwatana's about me
+          </h1>
+
           <p className='mb-4'>
             I'm interested in exploring spaces where functionality meets design.
             My background in research science has given me a solid foundation

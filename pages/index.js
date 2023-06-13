@@ -15,6 +15,9 @@ export default function Home() {
           <Image src={IconMaxi} alt='Icon Maxi' width={400} height={400} />
         </div>
         <div>
+          <h1 className='font-synthetique text-3xl font-bold mb-4'>
+            welcome 🌿
+          </h1>
           <h1>Hi, I'm Lisa Kraisriwatana!</h1>
           <div>
             I'm a developer with a background in molecular biology research.
