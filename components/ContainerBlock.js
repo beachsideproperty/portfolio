@@ -10,7 +10,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: 'Lisa Kraisriwatana - Developer, Thrifter, Poet',
     description: `I'm a current developer and former molecular biology researcher. Let's connect!`,
-    image: '/avatar.png',
     type: 'website',
     ...customMeta,
   };
@@ -36,6 +35,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         {meta.date && (
           <meta property='article:published_time' content={meta.date} />
         )}
+        <link rel='shortcut icon' href='/favicon.ico' />
       </Head>
       <main className='bg-pink-100 dark:bg-gray-800 w-full'>
         <Navbar />
