@@ -23,10 +23,10 @@ export default function About() {
             my skills in a way that brings forth positive change and joy.
           </p>
           <p className='mb-4'>
-            My all time favorite hobby is thrifting. On the left is a small
-            collection of pieces I've found over the years. There are few things
-            more thrilling to me than finding old treasures and giving them a
-            new life!
+            My tech stack includes: Javascript, PostgreSQL, Express.js,
+            React.js, Node.js, RESTful API Design/Implementation, Redux,
+            Next.js, Git, GitHub, Agile Methodologies, HTML5, CSS, Material UI,
+            Tailwind, Postico, Postman, Pixi.js, Vercel, and Render.
           </p>
           <p className='mb-4'>
             My work experience includes being: a multi-functional researcher and
@@ -37,10 +37,10 @@ export default function About() {
             productivity, with an emphasis on maximizing morale.
           </p>
           <p className='mb-4'>
-            My tech stack includes: Javascript, PostgreSQL, Express.js,
-            React.js, Node.js, RESTful API Design/Implementation, Redux,
-            Next.js, Git, GitHub, Agile Methodologies, HTML5, CSS, Material UI,
-            Tailwind, Postico, Postman, Pixi.js, Vercel, and Render.
+            My all time favorite hobby is thrifting. On the left is a small
+            collection of pieces I've found over the years. There are few things
+            more thrilling to me than finding old treasures and giving them a
+            new life!
           </p>
         </div>
       </div>
