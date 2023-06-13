@@ -27,10 +27,9 @@ export default function About() {
             my skills in a way that brings forth positive change and joy.
           </p>
           <p className='mb-4'>
-            My tech stack includes: Javascript, PostgreSQL, Express.js,
-            React.js, Node.js, RESTful API Design/Implementation, Redux,
-            Next.js, Git, GitHub, Agile Methodologies, HTML5, CSS, Material UI,
-            Tailwind, Postico, Postman, Pixi.js, Vercel, and Render.
+            Tech stack: Javascript, PostgreSQL, Express.js, React.js, Node.js,
+            RESTful API, Redux, Next.js, Git/GitHub, Agile, HTML5, CSS, MUI,
+            Tailwind, Postico, Postman, Vercel, and Render.
           </p>
           <p className='mb-4'>
             My work experience includes being: a multi-functional researcher and
