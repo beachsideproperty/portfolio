@@ -23,7 +23,7 @@ export default function Toggle() {
     <label aria-label='Toggle Dark Mode' className='relative'>
       <input
         type='checkbox'
-        value=''
+        checked={theme === 'dark'}
         onChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         className={`sr-only peer
                     ${

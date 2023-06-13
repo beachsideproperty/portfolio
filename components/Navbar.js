@@ -19,7 +19,7 @@ export default function Navbar() {
       </div>
       <div className='flex items-center space-x-4'>
         <Link
-          href='/'
+          href='/about'
           className='text-gray-300 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
         >
           About
@@ -29,12 +29,6 @@ export default function Navbar() {
           className='text-gray-300 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
         >
           Projects
-        </Link>
-        <Link
-          href='/contact'
-          className='text-gray-300 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
-        >
-          Contact
         </Link>
         <Toggle />
       </div>
