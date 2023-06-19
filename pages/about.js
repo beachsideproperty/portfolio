@@ -2,7 +2,6 @@ import React from 'react';
 import ContainerBlock from '../components/ContainerBlock';
 import Image from 'next/image';
 import Depop from '../images/depop.png';
-import Actin from '../images/actin.png';
 
 export default function About() {
   return (
@@ -18,7 +17,10 @@ export default function About() {
           <h1 className='font-synthetique text-3xl font-bold mb-4'>
             lisa kraisriwatana's about me
           </h1>
-
+          <p className='mb-4'>
+            Hi! My name is Lisa, and I'm a recent graduate of Fullstack's
+            Software Engineering bootcamp.
+          </p>
           <p className='mb-4'>
             I'm interested in exploring spaces where functionality meets design.
             My background in research science has given me a solid foundation
