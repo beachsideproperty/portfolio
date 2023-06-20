@@ -19,14 +19,13 @@ export default function About() {
           </h1>
           <p className='mb-4'>
             Hi! My name is Lisa, and I'm a recent graduate of Fullstack's
-            Software Engineering bootcamp.
-          </p>
-          <p className='mb-4'>
-            I'm interested in exploring spaces where functionality meets design.
-            My background in research science has given me a solid foundation
-            for transitioning into software engineering--I love the thrill of
-            solving new problems and am eager to join a team where I can apply
-            my skills in a way that brings forth positive change and joy.
+            Software Engineering bootcamp. I made the decision to transition
+            from molecular biology to coding last year and haven't looked back.
+            My background in research has given me a solid foundation for this
+            transition--I love the thrill of solving new problems, exploring
+            spaces where functionality meets design, and am eager to join a team
+            where I can apply these skills in a way that brings forth positive
+            change and joy.
           </p>
           <p className='mb-4'>
             Tech stack: Javascript, PostgreSQL, Express.js, React.js, Node.js,
@@ -34,12 +33,12 @@ export default function About() {
             Tailwind, Postico, Postman, Vercel, and Render.
           </p>
           <p className='mb-4'>
-            My work experience includes being: a multi-functional researcher and
-            purchaser at Heligenics, a biotech startup; a molecular biology
-            research intern at Dr. Shaner's UCSD lab; an undergraduate
-            researcher, field worker, and lab tech; and other various odd jobs
-            over the years. In a team setting I'm focused on harmony and
-            productivity, with an emphasis on maximizing morale.
+            My work experience includes: a multi-functional researcher and
+            purchaser at a biotech startup; a molecular biology researcher at a
+            UCSD lab; an undergraduate researcher, field worker, and lab tech;
+            and other various odd jobs over the years. In a team setting I'm
+            focused on harmony and productivity, with an emphasis on maintaining
+            morale.
           </p>
           <p className='mb-4'>
             My all time favorite hobby is thrifting. On the left is a small
