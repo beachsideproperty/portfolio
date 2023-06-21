@@ -18,14 +18,12 @@ export default function About() {
             lisa kraisriwatana's about me
           </h1>
           <p className='mb-4'>
-            Hi! My name is Lisa, and I'm a recent graduate of Fullstack's
-            Software Engineering bootcamp. I made the decision to transition
-            from molecular biology to coding last year and haven't looked back.
-            My background in research has given me a solid foundation for this
-            transition--I love the thrill of solving new problems, exploring
-            spaces where functionality meets design, and am eager to join a team
-            where I can apply these skills in a way that brings forth positive
-            change and joy.
+            Hi! My name is Lisa, and I made the decision to transition from
+            molecular biology to coding last year. My background in research has
+            given me a solid foundation for this transition--I love the thrill
+            of solving new problems, exploring spaces where functionality meets
+            design, and am eager to join a team where I can apply these skills
+            in a way that brings forth positive change and joy!
           </p>
           <p className='mb-4'>
             Tech stack: Javascript, PostgreSQL, Express.js, React.js, Node.js,
