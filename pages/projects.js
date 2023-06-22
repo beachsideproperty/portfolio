@@ -77,8 +77,8 @@ export default function Projects() {
             Grace Shopper
           </h1>
           <p className='mb-4'>
-            An e-commerce, four person team project that made heavy use of
-            Git/GitHub and Agile methodologies.
+            An e-commerce team project with three groupmates that made heavy use
+            of Git/GitHub and Agile methodologies.
           </p>
           <p className='mb-4'>
             Contributions: user routes, admin experience, CSS

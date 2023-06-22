@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import ContainerBlock from '../components/ContainerBlock';
 import Image from 'next/image';
-import IconMaxi from '../images/iconmaxi.png';
+import Hi from '../images/hi.png';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
     >
       <div className='flex items-center'>
         <div className='mr-4'>
-          <Image src={IconMaxi} alt='Icon Maxi' width={400} height={400} />
+          <Image src={Hi} alt='Hi' />
         </div>
         <div>
           <h1 className='font-synthetique text-3xl font-bold mb-4'>

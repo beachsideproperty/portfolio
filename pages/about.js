@@ -18,25 +18,25 @@ export default function About() {
             lisa kraisriwatana's about me
           </h1>
           <p className='mb-4'>
-            Hi! My name is Lisa, and I made the decision to transition from
-            molecular biology to coding last year. My background in research has
-            given me a solid foundation for this transition--I love the thrill
-            of solving new problems, exploring spaces where functionality meets
-            design, and am eager to join a team where I can apply these skills
-            in a way that brings forth positive change and joy!
+            I made the decision to transition from molecular biology to coding
+            last year. My background in research has given me a solid foundation
+            for this transition--I love the thrill of solving new problems,
+            exploring spaces where functionality meets design, and am eager to
+            join a team where I can apply these skills in a way that brings
+            forth positive change and joy.
           </p>
           <p className='mb-4'>
             Tech stack: Javascript, PostgreSQL, Express.js, React.js, Node.js,
-            RESTful API, Redux, Next.js, Git/GitHub, Agile, HTML5, CSS, MUI,
-            Tailwind, Postico, Postman, Vercel, and Render.
+            Redux, REST API, CRUD, Next.js, Git/GitHub, Agile, HTML5/CSS, MUI,
+            Tailwind, and more!
           </p>
           <p className='mb-4'>
-            My work experience includes: a multi-functional researcher and
-            purchaser at a biotech startup; a molecular biology researcher at a
-            UCSD lab; an undergraduate researcher, field worker, and lab tech;
-            and other various odd jobs over the years. In a team setting I'm
-            focused on harmony and productivity, with an emphasis on maintaining
-            morale.
+            My work experience includes being a multi-functional researcher and
+            purchaser at a biotech startup a molecular biology researcher at a
+            UCSD lab, an undergraduate researcher and lab technician, Mojave
+            desert field worker, and other various odd jobs in fashion and the
+            service industry. In a team setting, I'm focused on balancing
+            productivity with harmony.
           </p>
           <p className='mb-4'>
             My all time favorite hobby is thrifting. On the left is a small
