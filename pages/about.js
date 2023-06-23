@@ -9,9 +9,9 @@ export default function About() {
       title="lisa k's secret garden"
       description='sweet portfolio website'
     >
-      <div className='flex items-center'>
-        <div className='mr-4'>
-          <Image src={Depop} alt='Icon Maxi' width={500} layout='responsive' />
+      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+        <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
+          <Image src={Depop} alt='Icon Maxi' width={500} />
         </div>
         <div>
           <h1 className='font-synthetique text-3xl font-bold mb-4'>
@@ -20,7 +20,7 @@ export default function About() {
           <p className='mb-4'>
             I made the decision to transition from molecular biology to coding
             last year. My background in research has given me a solid foundation
-            for this transition--I love the thrill of solving new problems,
+            for development--I love the thrill of solving new problems,
             exploring spaces where functionality meets design, and am eager to
             join a team where I can apply these skills in a way that brings
             forth positive change and joy.

@@ -10,8 +10,8 @@ export default function Home() {
       title="lisa k's secret garden"
       description='sweet portfolio website'
     >
-      <div className='flex items-center'>
-        <div className='mr-4'>
+      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+        <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Hi} alt='Hi' />
         </div>
         <div>

@@ -12,9 +12,9 @@ export default function Projects() {
       title="lisa k's secret garden"
       description='sweet portfolio website'
     >
-      <div className='flex items-center'>
-        <div className='mr-4'>
-          <Image src={Pathfinder} alt='pathfinder' width={400} />
+      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+        <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
+          <Image src={Pathfinder} alt='pathfinder' />
         </div>
         <div>
           <h1 className='font-synthetique text-4xl font-bold mb-4'>
@@ -39,9 +39,9 @@ export default function Projects() {
           </p>
         </div>
       </div>
-      <div className='flex items-center'>
-        <div className='mr-4'>
-          <Image src={Progression} alt='progression' width={400} />
+      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+        <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
+          <Image src={Progression} alt='progression' />
         </div>
         <div>
           <h1 className='font-synthetique text-4xl font-bold mb-4'>
@@ -68,9 +68,9 @@ export default function Projects() {
           </p>
         </div>
       </div>
-      <div className='flex items-center'>
-        <div className='mr-4'>
-          <Image src={GraceShopper} alt='graceshopper' width={400} />
+      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+        <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
+          <Image src={GraceShopper} alt='graceshopper' />
         </div>
         <div>
           <h1 className='font-synthetique text-4xl font-bold mb-4'>

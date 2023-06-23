@@ -18,6 +18,13 @@ module.exports = {
         synthetique: ['synthetique', 'sans-serif'],
       },
     },
+    aspectRatio: {
+      '16/9': 16 / 9,
+      '4/3': 4 / 3,
+    },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
