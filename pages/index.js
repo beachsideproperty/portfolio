@@ -10,24 +10,23 @@ export default function Home() {
       title="lisa k's secret garden"
       description='sweet portfolio website'
     >
-      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-4'>
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Hi} alt='Hi' />
         </div>
-        <div>
+        <div className='mb-4 mt-4'>
           <h1 className='font-synthetique text-3xl font-bold mb-4'>
             welcome 🌿
           </h1>
-          <h1>Hi, I'm Lisa Kraisriwatana!</h1>
-          <div>
+          <p>Hi, I'm Lisa Kraisriwatana--you can call me Lisa K!</p>
+          <p>
             I'm a developer with a background in molecular biology research.
-          </div>
-          <div>
-            Actively seeking opportunities to apply a mix of creative and
-            critical thinking 🧚{' '}
-          </div>
-          <div></div>
-          <div className='mt-4'>
+          </p>
+          <p>
+            Currently seeking opportunities that require a mix of creative and
+            critical thinking 🧚
+          </p>
+          <p className='mt-4'>
             Let's connect on{' '}
             <Link
               href='https://www.linkedin.com/in/lisakraisriwatana/'
@@ -35,8 +34,8 @@ export default function Home() {
             >
               LinkedIn
             </Link>
-          </div>
-          <div className='mt-4'>
+          </p>
+          <p className='mt-4'>
             Check out my{' '}
             <Link
               href='https://github.com/beachsideproperty'
@@ -44,7 +43,7 @@ export default function Home() {
             >
               GitHub
             </Link>
-          </div>
+          </p>
         </div>
       </div>
     </ContainerBlock>

@@ -15,18 +15,18 @@ export default function Navbar() {
         <Link href='/'>
           <Image src={IconMini} alt='iconmini' width={30} height={30} />
         </Link>
-        <span>lisa k.</span>
+        <span className='font-bold'>lisa kraisriwatana</span>
       </div>
       <div className='flex items-center space-x-4'>
         <Link
           href='/about'
-          className='text-gray-300 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
+          className='text-gray-500 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
         >
           About
         </Link>
         <Link
           href='/projects'
-          className='text-gray-300 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
+          className='text-gray-500 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
         >
           Projects
         </Link>

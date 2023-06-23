@@ -81,7 +81,7 @@ export default function Projects() {
             of Git/GitHub and Agile methodologies.
           </p>
           <p className='mb-4'>
-            Contributions: user routes, admin experience, CSS
+            Contributions: admin dashboard, admin/user routes, CSS
           </p>
           <p className='mb-4'>
             Technologies: Stripe payments, PERN stack, vanilla CSS, JWT
