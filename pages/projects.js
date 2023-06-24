@@ -27,7 +27,9 @@ export default function Projects() {
           <p className='mb-4'>
             Contributions: UX/UI, user routes, MyTrips page
           </p>
-          <p className='mb-4'>Technologies: Google API, MUI, PERN stack, JWT</p>
+          <p className='mb-4'>
+            Technologies: Google API, Material UI, PERN stack
+          </p>
           <p>
             Visit the:{' '}
             <Link
@@ -52,7 +54,7 @@ export default function Projects() {
             and relaxation.
           </p>
           <p className='mb-4'>
-            Contributions: mood calendar, meditation timer, Pixi game
+            Contributions: mood calendar, meditation timer, Pixi game, etc.
           </p>
           <p className='mb-4'>
             Technologies: React Calendar, Material UI, PERN stack, JWT
@@ -81,10 +83,10 @@ export default function Projects() {
             of Git/GitHub and Agile methodologies.
           </p>
           <p className='mb-4'>
-            Contributions: admin dashboard, admin/user routes, CSS
+            Contributions: admin dashboard, admin/user routes, bulk of CSS
           </p>
           <p className='mb-4'>
-            Technologies: Stripe payments, PERN stack, vanilla CSS, JWT
+            Technologies: Stripe payments, PERN stack, JWT, CSS
           </p>
           <p>
             Visit the:{' '}
