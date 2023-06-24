@@ -23,7 +23,7 @@ export default function Home() {
             I'm a developer with a background in molecular biology research.
           </p>
           <p>
-            Currently seeking opportunities that require a mix of creative and
+            Actively pursuing roles where I can apply a mix of creative and
             critical thinking 🧚
           </p>
           <p className='mt-4'>

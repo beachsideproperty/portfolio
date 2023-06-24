@@ -23,8 +23,8 @@ export default function About() {
             last year. My background in research has given me an interest in,
             and foundation for, software engineering--I love the thrill of
             dissecting new problems, exploring the space where functionality
-            meets design, and am eager to join a team where I can apply these
-            skills in a way that brings forth positive change and joy.
+            meets design, and am eager to join a team where I can use these
+            skills in a way that brings forth efficiency and high morale.
           </p>
           {/* <p className='mb-4'>
             Tech stack: Javascript, PostgreSQL, Express, React, Node,
