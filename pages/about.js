@@ -49,7 +49,7 @@ export default function About() {
           </h1>
           <p className='mb-4'>
             My past work includes being a multi-functional researcher and
-            purchaser at a biotech startup a molecular biology researcher at a
+            purchaser at a biotech startup, a molecular biology researcher at a
             UCSD lab, an undergraduate researcher and lab technician, Mojave
             desert field worker, and various other jobs in fashion and the
             service industry.

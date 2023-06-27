@@ -30,6 +30,12 @@ export default function Navbar() {
         >
           Projects
         </Link>
+        <Link
+          href='/contact'
+          className='text-gray-500 hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
+        >
+          Contact
+        </Link>
         <Toggle />
       </div>
     </nav>
