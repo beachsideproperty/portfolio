@@ -25,10 +25,10 @@ export default function Projects() {
             being taken around the city by a local expert.
           </p>
           <p className='mb-4'>
-            Contributions: UX/UI, user routes, MyTrips page
+            Contributions: UX/UI design, user routes, MyTrips functionality
           </p>
           <p className='mb-4'>
-            Technologies: Google API, Material UI, PERN stack
+            Technologies: Google API, Material UI, JWT, PERN stack
           </p>
           <p>
             Visit the:{' '}
@@ -54,10 +54,11 @@ export default function Projects() {
             and relaxation.
           </p>
           <p className='mb-4'>
-            Contributions: mood calendar, meditation timer, Pixi game, etc.
+            Contributions: mood calendar, meditation timer, all other
+            functionality
           </p>
           <p className='mb-4'>
-            Technologies: React Calendar, Material UI, PERN stack, JWT
+            Technologies: React Calendar, Material UI, JWT, PERN stack
           </p>
           <p>
             Visit the:{' '}
@@ -80,10 +81,10 @@ export default function Projects() {
           </h1>
           <p className='mb-4'>
             An e-commerce team project with three groupmates that made heavy use
-            of Git/GitHub and Agile methodologies.
+            of Git, GitHub and Agile methodologies.
           </p>
           <p className='mb-4'>
-            Contributions: admin dashboard, admin/user routes, bulk of CSS
+            Contributions: admin dashboard, admin/user routes, site design
           </p>
           <p className='mb-4'>
             Technologies: Stripe payments, PERN stack, JWT, CSS
