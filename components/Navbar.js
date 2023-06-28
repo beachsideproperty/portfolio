@@ -6,9 +6,6 @@ import Image from 'next/image';
 import IconMini from '../images/iconmini.png';
 
 export default function Navbar() {
-  const router = useRouter();
-  console.log(router.asPath);
-
   return (
     <nav className='font-synthetique nav-text bg-light-gray-100 text-kelly-green dark:bg-dark-gray-800 dark:text-hot-pink py-4 px-8 flex justify-between items-center shadow-md'>
       <div className='flex items-center space-x-2'>

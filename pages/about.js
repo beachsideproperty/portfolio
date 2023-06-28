@@ -23,19 +23,13 @@ export default function About() {
             last year. My background in research has given me an interest in,
             and foundation for, software engineering--I love the thrill of
             dissecting new problems, exploring the space where functionality
-            meets design, and am eager to join a team where I can use these
-            skills in a way that brings forth efficiency and high morale.
+            meets design, and am eager to join a team where I can translate
+            these skills into beautiful, useful output.
           </p>
-          {/* <p className='mb-4'>
-            Tech stack: Javascript, PostgreSQL, Express, React, Node,
-            Redux, REST APIs, Next, Git, GitHub, Agile, HTML5/CSS, MUI,
-            Tailwind, and more!
-          </p> */}
           <p className='mb-4'>
-            <i>
-              On the left: a geometric actin structure I imaged at Nathan
-              Shaner's lab in July 2022.
-            </i>
+            Tech stack: Javascript, PostgreSQL, Express, React, Node, Redux,
+            REST APIs, Next, Git, GitHub, Agile, HTML5/CSS, MUI, Tailwind, and
+            more!
           </p>
         </div>
       </div>
@@ -61,8 +55,14 @@ export default function About() {
           </p>
           <p className='mb-4'>
             <i>
-              On the left: a small collection of vintage pieces I've parted with
-              over the years.
+              Left, top: a geometric actin structure I imaged at Nathan Shaner's
+              lab in July 2022.
+            </i>
+          </p>
+          <p className='mb-4'>
+            <i>
+              Left, bottom: a small collection of vintage pieces I've parted
+              with over the years.
             </i>
           </p>
         </div>

@@ -37,7 +37,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
         <link rel='shortcut icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-pink-100 dark:bg-gray-800 w-full'>
+      <main className='bg-pink-50 dark:bg-gray-800 w-full'>
         <Navbar />
         <div>{children}</div>
         {/* <Footer /> */}
