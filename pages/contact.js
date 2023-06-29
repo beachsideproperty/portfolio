@@ -1,8 +1,11 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useSpring, animated } from '@react-spring/web';
 import ContainerBlock from '../components/ContainerBlock';
 
 export default function Home() {
+  const fade = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -34,7 +37,7 @@ export default function Home() {
       title="lisa k's secret garden"
       description='sweet portfolio website'
     >
-      <div className='flex flex-col items-center gap-4'>
+      <animated.div style={fade} className='flex flex-col items-center gap-4'>
         <h1 className='font-synthetique text-3xl font-bold mb-4 mt-6'>
           contact me
         </h1>
@@ -70,7 +73,7 @@ export default function Home() {
             Submit
           </button>
         </form>
-      </div>
+      </animated.div>
     </ContainerBlock>
   );
 }
