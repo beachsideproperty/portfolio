@@ -19,3 +19,7 @@
 .nav-text {
   font-size: 1.7rem;
 }
+
+* {
+  cursor: url('http://www.rw-designer.com/cursor-view/99973.png'), auto !important;
+}

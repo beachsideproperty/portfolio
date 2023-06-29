@@ -13,6 +13,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
     type: 'website',
     ...customMeta,
   };
+
+  const cursorStyle = {
+    cursor: "url('http://www.rw-designer.com/cursor-view/99973.png'), auto",
+  };
+
   return (
     <div>
       <Head>
@@ -37,7 +42,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
         <link rel='shortcut icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-pink-50 dark:bg-gray-800 w-full'>
+      <main className='bg-pink-50 dark:bg-gray-800 w-full' style={cursorStyle}>
         <Navbar />
         <div>{children}</div>
         {/* <Footer /> */}

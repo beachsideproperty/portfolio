@@ -29,7 +29,7 @@ export default function Home() {
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Hi} alt='Hi' />
         </div>
-        <div className='mt-4'>
+        <div className='mt-2'>
           <animated.h1
             style={fade2}
             className='font-synthetique text-3xl font-bold mb-2'
@@ -38,21 +38,22 @@ export default function Home() {
           </animated.h1>
           <animated.div style={fade3}>
             <p>
-              Hi, I'm Lisa Kraisriwatana (but you can call me{' '}
+              Hi! I'm Lisa Kraisriwatana, but you can call me{' '}
               <span className='text-hot-pink dark:text-kelly-green'>
                 Lisa K
               </span>
-              )!
+              .
             </p>
             <p>
-              I'm a developer with a background in molecular biology research 👩🏻‍🔬
+              I'm a developer with a background in molecular biology research,
             </p>
             <p>
-              Actively pursuing roles that require a mix of creative and
-              critical thinking 🧚
+              and I'm actively pursuing roles that require a mix of creative and
+              critical thinking.
             </p>
+            <p>Let's connect!</p>
           </animated.div>
-          <animated.div style={fade4} className='flex mt-4 mb-8'>
+          <animated.div style={fade4} className='flex mt-4 mb-6'>
             <Link
               href='https://www.linkedin.com/in/lisakraisriwatana/'
               className='text-hot-pink dark:text-kelly-green hover:text-kelly-green dark:text-gray-300 dark:hover:text-hot-pink'
