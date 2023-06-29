@@ -9,10 +9,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 export default function Home() {
-  const fade = useSpring({
-    from: { opacity: 0 },
-    to: { opacity: 1 },
-  });
+  const fade = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
 
   const slideIn = useSpring({
     from: { opacity: 0, marginLeft: -500 },

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSpring, animated } from '@react-spring/web';
 import ContainerBlock from '../components/ContainerBlock';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -7,12 +8,16 @@ import Progression from '../images/progression.png';
 import GraceShopper from '../images/graceshopper.png';
 
 export default function Projects() {
+  const props = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
   return (
     <ContainerBlock
       title="lisa k's secret garden"
       description='sweet portfolio website'
     >
-      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+      <animated.div
+        className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
+        style={props}
+      >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Pathfinder} alt='pathfinder' />
         </div>
@@ -40,8 +45,11 @@ export default function Projects() {
             </Link>
           </p>
         </div>
-      </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+      </animated.div>
+      <animated.div
+        className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
+        style={props}
+      >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Progression} alt='progression' />
         </div>
@@ -70,8 +78,11 @@ export default function Projects() {
             </Link>
           </p>
         </div>
-      </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'>
+      </animated.div>
+      <animated.div
+        className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
+        style={props}
+      >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={GraceShopper} alt='graceshopper' />
         </div>
@@ -99,7 +110,7 @@ export default function Projects() {
             </Link>
           </p>
         </div>
-      </div>
+      </animated.div>
     </ContainerBlock>
   );
 }
