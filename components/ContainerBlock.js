@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Navbar from './Navbar';
-// import Footer from './Footer';
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
@@ -15,7 +14,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   };
 
   const cursorStyle = {
-    cursor: "url('http://www.rw-designer.com/cursor-view/99973.png'), auto",
+    cursor: "url('/pixel_keroppi_cursor.cur'), auto",
   };
 
   return (
