@@ -13,10 +13,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
     ...customMeta,
   };
 
-  const cursorStyle = {
-    cursor: "url('/pixel_keroppi_cursor.cur'), auto",
-  };
-
   return (
     <div>
       <Head>
@@ -41,7 +37,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
         <link rel='shortcut icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-pink-50 dark:bg-gray-800 w-full' style={cursorStyle}>
+      <main className='bg-pink-50 dark:bg-gray-800 w-full'>
         <Navbar />
         <div>{children}</div>
         {/* <Footer /> */}
