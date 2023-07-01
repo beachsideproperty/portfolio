@@ -11,11 +11,11 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 export default function Home() {
   const fade = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
 
-  const fade2 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 400 });
+  const fade2 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 500 });
 
-  const fade3 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 600 });
+  const fade3 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 800 });
 
-  const fade4 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 900 });
+  const fade4 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 1100 });
 
   return (
     <ContainerBlock

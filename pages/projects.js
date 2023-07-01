@@ -8,7 +8,12 @@ import Progression from '../images/progression.png';
 import GraceShopper from '../images/graceshopper.png';
 
 export default function Projects() {
-  const props = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
+  const fade = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
+
+  const fade2 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 500 });
+
+  const fade3 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 800 });
+
   return (
     <ContainerBlock
       title="lisa k's secret garden"
@@ -16,7 +21,7 @@ export default function Projects() {
     >
       <animated.div
         className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
-        style={props}
+        style={fade}
       >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Pathfinder} alt='pathfinder' />
@@ -48,7 +53,7 @@ export default function Projects() {
       </animated.div>
       <animated.div
         className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
-        style={props}
+        style={fade2}
       >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={Progression} alt='progression' />
@@ -81,7 +86,7 @@ export default function Projects() {
       </animated.div>
       <animated.div
         className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
-        style={props}
+        style={fade3}
       >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image src={GraceShopper} alt='graceshopper' />

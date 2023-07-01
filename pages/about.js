@@ -5,7 +5,9 @@ import Image from 'next/image';
 import Depop from '../images/depop.png';
 
 export default function About() {
-  const props = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
+  const fade = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 200 });
+
+  const fade2 = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 500 });
 
   return (
     <ContainerBlock
@@ -14,7 +16,7 @@ export default function About() {
     >
       <animated.div
         className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
-        style={props}
+        style={fade}
       >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <video autoPlay loop muted className='w-full h-full object-cover'>
@@ -41,7 +43,7 @@ export default function About() {
       </animated.div>
       <animated.div
         className='grid grid-cols-1 md:grid-cols-2 items-center gap-4'
-        style={props}
+        style={fade2}
       >
         <div className='aspect-w-16 aspect-h-9 overflow-hidden'>
           <Image
