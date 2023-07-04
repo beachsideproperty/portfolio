@@ -68,6 +68,7 @@ export default function Home() {
             name='message'
             cols='50'
             rows='10'
+            required
           ></textarea>
           <button className='bg-light-gray-100 text-kelly-green dark:bg-dark-gray-800 dark:text-hot-pink py-2 px-4 self-center shadow-md rounded-lg mb-6 '>
             Submit
