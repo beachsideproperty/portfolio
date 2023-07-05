@@ -45,7 +45,7 @@ export default function Home() {
           <input
             className={styling}
             type='text'
-            placeholder='Full Name'
+            placeholder='Name'
             name='user_name'
             required
           />
