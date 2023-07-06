@@ -32,7 +32,7 @@ export default function About() {
             love the thrill of dissecting new problems, exploring the space
             where functionality meets design, and am eager to join a team where
             I can translate these skills into elegant output with a positive
-            impact.
+            impact!
           </p>
           <p className='mb-4'>
             Tech stack: Javascript, PostgreSQL, Express, React, Node, Redux,
