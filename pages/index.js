@@ -45,11 +45,7 @@ export default function Home() {
               .
             </p>
             <p>
-              I'm a developer with a background in molecular biology research,
-            </p>
-            <p>
-              and I'm actively pursuing roles that require a mix of creative and
-              critical thinking.
+              I'm a developer with a background in molecular biology research.
             </p>
             <p>Let's connect!</p>
           </animated.div>
