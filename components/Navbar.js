@@ -6,7 +6,7 @@ import IconMini from '../images/iconmini.png';
 
 export default function Navbar() {
   return (
-    <nav className='font-synthetique nav-text bg-light-gray-100 text-kelly-green dark:bg-dark-gray-800 dark:text-hot-pink py-4 px-8 flex justify-between items-center shadow-md'>
+    <nav className='font-synthetique nav-text bg-pink-50 text-kelly-green dark:bg-dark-gray-800 dark:text-hot-pink py-4 px-8 flex justify-between items-center shadow-md'>
       <div className='flex items-center space-x-2'>
         <Link href='/'>
           <Image src={IconMini} alt='iconmini' width={30} height={30} />
