@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
@@ -14,7 +15,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   };
 
   return (
-    <div>
+    <div className='flex flex-col flex-grow'>
       <Head>
         <title>{meta.title}</title>
         <meta name='robots' content='follow, index' />
@@ -39,7 +40,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       </Head>
       <main className='bg-pink-100 dark:bg-gray-800 w-full'>
         <Navbar />
-        <div>{children}</div>
+        <div className='flex-grow'>{children}</div>
         {/* <Footer /> */}
       </main>
     </div>
