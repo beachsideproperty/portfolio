@@ -29,8 +29,8 @@ export default function About() {
             I made the decision to transition from molecular biology to software
             engineering last year via Fullstack Academy. My background in
             research has given me an interest in, and foundation for, coding--I
-            love the thrill of dissecting new problems, exploring the space
-            where functionality meets design, and am eager to join a team where
+            love mapping out new problems and exploring the space where core
+            functionality meets intuitive design. I'm eager to join a team where
             I can translate these skills into elegant output with a positive
             impact!
           </p>
